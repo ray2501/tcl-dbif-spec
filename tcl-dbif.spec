@@ -23,7 +23,7 @@ Version:        1.3
 Release:        0
 License:        SUSE-Permissive
 Summary:        Application Layer Around the Tcl DBus Library
-Url:            http://dbus-tcl.sourceforge.net/
+Url:            http://chiselapp.com/user/schelte/repository/dbus
 Group:          Development/Languages/Tcl
 Source:         %{upstream_name}-%{version}.tar.gz
 BuildArch:      noarch
