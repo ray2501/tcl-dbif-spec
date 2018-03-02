@@ -57,9 +57,9 @@ cat > %{buildroot}%{tcl_noarchdir}/%{upstream_name}%{version}/pkgIndex.tcl << 'E
 # Tcl package index file
 #
 package ifneeded dbif 1.3 \
-    [list source [file join dbif-1.3.tm]]
+    [list source [file join $dir dbif-1.3.tm]]
 package ifneeded dbus-intf 1.3 \
-    [list source [file join dbif-1.3.tm]]
+    [list source [file join $dir dbif-1.3.tm]]
 EOD
 
 
