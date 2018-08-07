@@ -3,7 +3,7 @@
 openSUSE RPM spec for tcl-dbif.
 
 dbif its official homepage is
-[http://chiselapp.com/user/schelte/repository/dbus](http://chiselapp.com/user/schelte/repository/dbus).
+[http://chiselapp.com/user/schelte/repository/dbif](http://chiselapp.com/user/schelte/repository/dbif).
 
 It is a sub-project of dbus-tcl project. dbif is a Tcl library for easily providing
 an introspectable DBus interface to Tcl programs.
