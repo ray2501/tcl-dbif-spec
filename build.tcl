@@ -2,7 +2,7 @@
 
 set arch "noarch"
 set base "dbif-1.3"
-set fileurl "https://chiselapp.com/user/schelte/repository/dbif/tarball/dbif-4898c5e31c.tar.gz?uuid=4898c5e31c8f6b6433f9e4d392b97886dd92783fb62f6fb50dbe725df9e03327"
+set fileurl "http://chiselapp.com/user/schelte/repository/dbif/tarball/dbif-5c978c81f0.tar.gz?uuid=5c978c81f0bea85fbf0f3549833d30cf7194899621af5dc1e042e0ae7ddfaf47"
 
 set var [list wget $fileurl -O dbif.tar.gz]
 exec >@stdout 2>@stderr {*}$var
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 file delete dbif.tar.gz
 
-set var [list mv dbif-4898c5e31c $base]
+set var [list mv dbif-5c978c81f0 $base]
 exec >@stdout 2>@stderr {*}$var
 
 set var [list tar czvf $base.tar.gz $base]
