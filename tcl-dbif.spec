@@ -19,7 +19,7 @@
 %define upstream_name dbif
 
 Name:           tcl-dbif
-Version:        1.3
+Version:        1.4
 Release:        0
 License:        SUSE-Permissive
 Summary:        Application Layer Around the Tcl DBus Library
@@ -56,10 +56,10 @@ cat > %{buildroot}%{tcl_noarchdir}/%{upstream_name}%{version}/pkgIndex.tcl << 'E
 #
 # Tcl package index file
 #
-package ifneeded dbif 1.3 \
-    [list source [file join $dir dbif-1.3.tm]]
-package ifneeded dbus-intf 1.3 \
-    [list source [file join $dir dbif-1.3.tm]]
+package ifneeded dbif 1.4 \
+    [list source [file join $dir dbif-1.4.tm]]
+package ifneeded dbus-intf 1.4 \
+    [list source [file join $dir dbif-1.4.tm]]
 EOD
 
 

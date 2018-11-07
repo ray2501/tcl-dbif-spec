@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "dbif-1.3"
-set fileurl "http://chiselapp.com/user/schelte/repository/dbif/tarball/dbif-5c978c81f0.tar.gz?uuid=5c978c81f0bea85fbf0f3549833d30cf7194899621af5dc1e042e0ae7ddfaf47"
+set base "dbif-1.4"
+set fileurl "http://chiselapp.com/user/schelte/repository/dbif/tarball/6da4a0f17a/dbif-6da4a0f17a.tar.gz"
 
 set var [list wget $fileurl -O dbif.tar.gz]
 exec >@stdout 2>@stderr {*}$var
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 file delete dbif.tar.gz
 
-set var [list mv dbif-5c978c81f0 $base]
+set var [list mv dbif-6da4a0f17a $base]
 exec >@stdout 2>@stderr {*}$var
 
 set var [list tar czvf $base.tar.gz $base]
